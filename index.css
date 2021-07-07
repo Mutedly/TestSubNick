@@ -1,0 +1,18 @@
+    .main-settings {
+	
+    background: linear-gradient(269deg, #ff0000, #00b9ff, #7dff00, #55ae00, #2300ae);
+    background-size: 1000% 1000%;
+    font-family: 'Open Sans Hebrew', serif;
+	animation: Animation 8s ease infinite;
+    color: #000;
+	background-clip: text;
+	text-fill-color: transparent;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+@keyframes Animation {
+    0%{background-position:0% 51%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 51%}
+}
